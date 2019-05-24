@@ -4,8 +4,6 @@ const bodyParser = require('body-parser');
 const port = process.env.Port || 5000
 const items = require('./routes/api/items');
 
-
-
 const app = express(); 
 //Bodyparser Middleware
 app.use(bodyParser.json());
